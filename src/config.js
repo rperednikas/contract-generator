@@ -11,9 +11,9 @@ export default transenv()(({str, bool}) => {
     emsKey: str('EMS_KEY'),
     pandadocKey: str('PANDADOC_KEY'),
 
-    google: {
+    /*google: {
       email: str('GOOGLE_EMAIL'),
       key: str('GOOGLE_KEY'),
-    },
+    },*/
   }
 })
